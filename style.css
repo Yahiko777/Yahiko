@@ -1,0 +1,307 @@
+/*Rules for Entire Site*/
+
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.webpage-links-style {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  font-style: italic;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 10px;
+}
+
+.webpage-links-style > * {
+  text-decoration: none;
+  font-family: none;
+  background-color: black;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+a.FF {
+  color: teal;
+}
+
+a.banjo-kazooie {
+  color: palevioletred;
+}
+
+a.SMT {
+  color: goldenrod;
+}
+
+a.bomberman {
+  color: plum;
+}
+
+/*Home Page Section*/
+
+body.home-page {
+  background-image: url("images/Ghost\ of\ Tsushima_20200719220749.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0%;
+  padding: 0%;
+}
+
+/*Home Page Menu Bar Section*/
+
+.home-page-nav-bar-grid-container {
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: 2;
+  position: sticky;
+  justify-content: center;
+  top: 0%;
+  padding: 0%;
+  margin: 0%;
+  font-size: 18px;
+  background: black;
+  box-shadow: 1px 1px 10px rgb(0, 0, 0, 0.8);
+}
+
+h1.home-page-nav-bar-header {
+  font-family: none;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  text-align: center;
+  margin-top: 12px;
+  margin-bottom: 8px;
+  color: whitesmoke;
+  font-size: 45px;
+  text-shadow: 1px 1px 0px black, 2px 2px 1px darkgrey;
+}
+
+/*FF Section*/
+
+h1.FF-page-header {
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  margin-right: 30px;
+  font-weight: bold;
+  font-style: oblique;
+  font-stretch: semi-expanded;
+  text-align: center;
+  font-size: 45px;
+  color: whitesmoke;
+  text-shadow: 1px 1px 0 black, 2px 2px 1px black;
+}
+
+h2.FF-section-header {
+  font-stretch: semi-expanded;
+  text-shadow: 1px 1px 0 black, 2px 2px 1px black;
+  text-align: center;
+  margin-bottom: 80px;
+  font-size: xx-large;
+  font-style: oblique;
+}
+
+h3.FF-picture-header {
+  font-weight: lighter;
+  font-stretch: semi-expanded;
+  font-style: oblique;
+  text-decoration: underline whitesmoke;
+  color: whitesmoke;
+  text-shadow: 1px 1px 0 black, 1px 0 1px black;
+  font-size: x-large;
+}
+
+p.FF-p {
+  color: whitesmoke;
+  text-shadow: 1px 1px 1px black;
+  margin-top: -20px;
+  font-size: larger;
+}
+
+em.Ramuh {
+  color: purple;
+  font-style: oblique;
+}
+
+.FF-footer {
+  display: grid;
+  background-color: black;
+  grid-template-columns: 1;
+  grid-template-rows: 1;
+  color: whitesmoke;
+  min-height: 150px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+  width: 100%;
+}
+
+/*FFXV Section*/
+
+body.FFXV {
+  background-image: url("images/FINAL\ FANTASY\ XV_20200118102915.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0%;
+  padding: 0%;
+}
+
+/*FFXV Menu Bar Section*/
+
+.FFXV-menu-grid-container {
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: 2;
+  position: sticky;
+  justify-content: center;
+  column-gap: 10px;
+  font-size: 18px;
+  font-style: italic;
+  width: 100%;
+  top: 0%;
+  padding: 0%;
+  margin: 0%;
+  float: inline-start;
+  box-shadow: 1px 1px 10px rgb(0, 0, 0, 0.8);
+  background-image: linear-gradient(to bottom right, navy, blue, aqua, cyan);
+}
+
+h1.FFXV-page-header {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  margin-top: 12px;
+  margin-bottom: 8px;
+}
+
+.FF-FF {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.banjo-kazooie-FF {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.SMT-FF {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.bomberman-FF {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+/*FFXV Main Body Section*/
+
+.FFXV-section-header {
+  text-align: center;
+  text-decoration: underline aqua;
+  color: aqua;
+}
+
+.FFXV-main-body-grid-container {
+  display: grid;
+  grid-template-columns: repeat(2);
+  grid-template-rows: repeat(4);
+  align-content: space-around;
+  align-items: center;
+}
+
+.FFXV-grid-item-1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  margin-left: 5%;
+  max-width: 90%;
+  background-color: rgb(95, 75, 185, 0.5);
+  border-radius: 12px;
+}
+
+.FFXV-grid-item-2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  margin-left: 5%;
+  max-width: 90%;
+  background-color: rgb(95, 75, 185, 0.5);
+  border-radius: 12px;
+}
+
+.FFXV-grid-item-3 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  margin-left: 5%;
+  max-width: 90%;
+  background-color: rgb(95, 75, 185, 0.5);
+  border-radius: 12px;
+}
+
+.FFXV-grid-item-4 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  margin-left: 5%;
+  max-width: 90%;
+  background-color: rgb(95, 75, 185, 0.5);
+  border-radius: 12px;
+}
+
+img.noctis-summoning-ramuh {
+  width: 85%;
+  border-radius: 12px;
+  box-shadow: 3px 3px 2px 0 black;
+  box-shadow: 5px 5px 3px 0 black;
+}
+
+img.noctis-summoning-ramuh:hover {
+  opacity: 0.7;
+}
+
+img.noctis-and-iggy {
+  width: 85%;
+  border-radius: 12px;
+  box-shadow: 3px 3px 2px 0 black;
+  box-shadow: 5px 5px 3px 0 black;
+}
+img.noctis-and-iggy:hover {
+  opacity: 0.7;
+}
+
+img.final-dungeon-boss-bilrost {
+  width: 85%;
+  border-radius: 12px;
+  box-shadow: 3px 3px 2px 0 black;
+  box-shadow: 5px 5px 3px 0 black;
+}
+
+img.final-dungeon-boss-bilrost:hover {
+  opacity: 0.7;
+}
+
+img.noctis-and-iggy-in-combat {
+  width: 85%;
+  border-radius: 12px;
+  box-shadow: 3px 3px 2px 0 black;
+  box-shadow: 5px 5px 3px 0 black;
+}
+
+img.noctis-and-iggy-in-combat:hover {
+  opacity: 0.7;
+}
